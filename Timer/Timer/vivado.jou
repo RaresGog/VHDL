@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Jun  1 20:41:01 2024
+# Process ID: 12904
+# Current directory: C:/Users/admin/OneDrive/Desktop/Timer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11988 C:\Users\admin\OneDrive\Desktop\Timer\Timer.xpr
+# Log file: C:/Users/admin/OneDrive/Desktop/Timer/vivado.log
+# Journal file: C:/Users/admin/OneDrive/Desktop/Timer\vivado.jou
+# Running On: DESKTOP-NVIC6H2, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 16891 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/admin/OneDrive/Desktop/Timer/Timer.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/admin/OneDrive/Desktop/Timer/Timer.runs/impl_1/Timer.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/admin/OneDrive/Desktop/Timer/Timer.runs/impl_1/Timer.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
